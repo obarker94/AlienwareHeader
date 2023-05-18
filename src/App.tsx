@@ -6,7 +6,7 @@ function App() {
 
   const handleScroll = () => {
     const scrollAmount = document.documentElement.scrollTop || document.body.scrollTop;
-    if (scrollAmount > 50) setBackground(`bg-gray-900/100`)
+    if (scrollAmount > 50) setBackground(`bg-[#323232]`)
     else setBackground(`bg-gray-900/0`)
   };
 
